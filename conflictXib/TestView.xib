@@ -24,11 +24,20 @@
                     </constraints>
                     <state key="normal" title="Button"/>
                 </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Asr-UO-jfd">
+                    <rect key="frame" x="76.5" y="20" width="49" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="PRD-uA-ZwP"/>
+                        <constraint firstAttribute="width" constant="47" id="ni9-vf-G9Y"/>
+                    </constraints>
+                </switch>
             </subviews>
-            <color key="backgroundColor" red="0.99607843139999996" green="0.89411764709999997" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="AIM-5Q-msW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="DGx-PI-Tyh"/>
+                <constraint firstItem="Asr-UO-jfd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KBu-sI-BbO"/>
                 <constraint firstItem="AIM-5Q-msW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZSL-19-Rle"/>
+                <constraint firstItem="Asr-UO-jfd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="qch-6y-fmg"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
