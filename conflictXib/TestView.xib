@@ -24,10 +24,23 @@
                     </constraints>
                     <state key="normal" title="Button"/>
                 </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="78f-Zc-NFU">
+                    <rect key="frame" x="39.5" y="20" width="121" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="2iS-AR-R14"/>
+                        <constraint firstAttribute="width" constant="121" id="ujJ-Yf-EG4"/>
+                    </constraints>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                </segmentedControl>
             </subviews>
-            <color key="backgroundColor" red="0.99607843139999996" green="0.89411764709999997" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.20784313979999999" green="0.6784313917" blue="0.88235294819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="AIM-5Q-msW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="DGx-PI-Tyh"/>
+                <constraint firstItem="78f-Zc-NFU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ViW-eg-S11"/>
+                <constraint firstItem="78f-Zc-NFU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="YEP-6k-xLE"/>
                 <constraint firstItem="AIM-5Q-msW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ZSL-19-Rle"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
